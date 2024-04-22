@@ -1,6 +1,6 @@
 const db = "mongodb+srv://createsometh:SkUQPDB5z6DKyP4I@cluster0.damcu31.mongodb.net/dashboard-db";
-const app = express();
 const express = require('express');
+const app = express();
 const mongoose = require('mongoose');
 const ejs = require('ejs');
 const bodyParser = require('body-parser');
